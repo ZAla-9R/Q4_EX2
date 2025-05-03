@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Age Verification</title>
+<style>
+body {
+  background-color: #f2d0f4;
+}
+
+h1 {
+  color: #ff00b9;
+  margin: 30px;
+  background-color: hotpink;
+  text-align: center;
+}
+header {
+	color: hotpink;
+}
+</style>
+<div class="header"> 
+<h1>Age Verification</h1>
+</div>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id=name name="name"><br><br>
+  <label for="lname">Age:</label>
+  <input type="text" id="lname" name="age"><br>
+<script>
+	function verifyAge() {
+		var inputAge = document.getElementById('age').value;
+		if(inputAge<18)
+		window.alert('Not valid to vote!');
+	}
+	else {
+		window.alert('Welcome! something somehting ajioebsoink hbsufd ');
+	}
+</script>
+<script src="style.css"></script>
+</head>
+<body>
+
+</body>
+</html>
